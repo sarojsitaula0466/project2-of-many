@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Facebook SignUp</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">Sign Up</header>
+      <p id="para">It's quick and easy</p>
+      <form class="facebook">
+        <div class="signin">
+          <input type="text" placeholder="First Name" class="first-Name" />
+          <input type="text" placeholder="Last Name" class="last-Name" />
+        </div>
+        <div class="signin">
+          <input type="email" placeholder="Email" class="email-Name" />
+        </div>
+        <div class="signin">
+          <input
+            type="password"
+            placeholder="New password"
+            class="password-Name"
+          />
+        </div>
+        <div class="dateofbirth">
+          <label>Birthday</label>
+          <div id="birthday">
+              <select name="month">
+                <option value="month">Month</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+                
+              </select>
+              <select name="days">
+                  <option value="days">Days</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+              </select>
+              <select name="years">
+                  <option value="years">Years</option>
+                  <option value="1994">1994</option>
+                  <option value="1995">1995</option>
+              </select>
+          
+        </div>
+
+        <div>
+            <label id="gender">Gender</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="gender" value="Male" />
+          <label>Male</label>
+          <input type="radio" name="gender" value="Feale" />
+          <label>Male</label>
+          <input type="radio" name="gender" value="Custom" />
+          <label>Custom</label>
+        </div>
+        <div>
+            <p>By clicking Sign Up, you agree to our Terms. Learn how we collect, use and share your data in our Data Policy and how we use cookies and similar technology in our Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
+        </div>
+        <div>
+            <input type="submit" value="Sign Up" id="submit">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

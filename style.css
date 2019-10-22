@@ -1,0 +1,52 @@
+body {
+  background: brown;
+  color: black;
+}
+#header {
+  font-size: 30px;
+}
+#para {
+  font-size: 12px;
+  font-weight: lighter;
+}
+.container {
+  background: #a5d8f2;
+  width: 340px;
+  margin: 30px auto 0;
+  padding: 10px;
+}
+.col {
+  float: left;
+}
+
+#submit {
+  background: green;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+}
+p {
+  width: 225px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+}
+#birthday {
+  margin-bottom: 5px;
+}
+.signin {
+  margin: 0 0 10px;
+}
+.first-Name,
+.last-Name {
+  height: 20px;
+  width: 150px;
+  margin: 5px 5px 5px 0;
+}
+.email-Name {
+  width: 315px;
+  height: 20px;
+}
+.password-Name {
+  width: 315px;
+  height: 20px;
+}
